@@ -2,9 +2,9 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'magdalenagam', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 9, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -88,7 +88,7 @@ const config = {
   ],
 
   // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
+ /* externalProjects: [
     {
       title: 'Project Name',
       description:
@@ -103,9 +103,9 @@ const config = {
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
-  ],
+  ],*/
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
+  /*blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
@@ -117,7 +117,7 @@ const config = {
   hotjar: {
     id: '',
     snippetVersion: 6,
-  },
+  },*/
   themeConfig: {
     defaultTheme: 'wireframe',
 
