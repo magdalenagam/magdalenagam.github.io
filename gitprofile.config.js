@@ -3,50 +3,43 @@
 const config = {
   github: {
     username: 'magdalenagam', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    sortBy: 'updated', // stars | updated
     limit: 9, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['magdalenagam.github.io'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'magdalena-gambuli',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: '',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'Python',
     'MySQL',
+    'JavaScript',
+    'Java',
     'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
