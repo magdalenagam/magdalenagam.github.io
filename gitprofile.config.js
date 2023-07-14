@@ -163,7 +163,7 @@ const config = {
     customTheme: {
       primary: '#378752', //background
       secondary: '#7bb38d', //project box
-      accent: '#EE51B1', 
+      accent: '#badabf', 
       neutral: '#A59CD3',
       'base-100': '#378752',
       '--rounded-box': '3rem',
