@@ -112,11 +112,11 @@ const config = {
     snippetVersion: 6,
   },*/
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'customTheme',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -161,11 +161,11 @@ const config = {
 
     // Custom theme
     customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
+      primary: '#7bb38d',
+      secondary: '#badabf',
+      accent: '#378752',
+      neutral: '#73816a',
+      'base-100': '#e3f1e2',
       '--rounded-box': '3rem',
       '--rounded-btn': '3rem',
     },
