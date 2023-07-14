@@ -161,11 +161,11 @@ const config = {
 
     // Custom theme
     customTheme: {
-      primary: '#7bb38d',
-      secondary: '#badabf',
-      accent: '#378752',
+      primary: '#378752',
+      secondary: '#7bb38d',
+      accent: '#badabf',
       neutral: '#73816a',
-      'base-100': '#e3f1e2',
+      'base-100': '#378752',
       '--rounded-box': '3rem',
       '--rounded-btn': '3rem',
     },
