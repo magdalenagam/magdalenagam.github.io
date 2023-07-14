@@ -41,7 +41,7 @@ const config = {
     'Git',
     'CSS',
   ],
-  experiences: [
+  /*experiences: [
     {
       company: 'Company Name',
       position: 'Position',
@@ -56,7 +56,7 @@ const config = {
       to: 'August 2021',
       companyLink: 'https://example.com',
     },
-  ],
+  ],*/
   /* certifications: [
     {
       name: 'Lorem ipsum',
@@ -65,7 +65,7 @@ const config = {
       link: 'https://example.com'
     },
   ], */
-  education: [
+  /*education: [
     {
       institution: 'Institution Name',
       degree: 'Degree',
@@ -78,7 +78,7 @@ const config = {
       from: '2012',
       to: '2014',
     },
-  ],
+  ],*/
 
   // To hide the `My Projects` section, keep it empty.
  /* externalProjects: [
